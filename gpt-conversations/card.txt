@@ -1,0 +1,26 @@
+Create me a Vuetify 3 component that shows me a Card
+The Card height and width should be configurable with the default set to 275 pixles by 275 pixles
+It should have a grey border whose width is 3 pixels
+It should have two sections, called Image and Text
+The Image section needs to hold an Image
+The Image section should have a height of exactly the cards height less the height of the text section
+The Image section should start at the top left hand corner of the cards
+The Image section should take all the remaining height
+The text section needs to hold Text
+The text section should take all of the cards width
+The text section needs to be placed 1 pixes below where the Image section ends
+The text section should only be 40 pixels high from the bottom of the cards
+The text in the text section should be horizontally and vertically centered
+
+-----
+
+create a vuetify 3 component that has a panel which slides in from the right hand slides
+it has full height
+contains a title
+it should allow the follwoing data to be captured
+- dimensions (height and width)
+- a caption
+- path to an Image
+- positive and negative rotation values in increments of 45 degrees
+It should also have a Save and Cancel buttons
+Both Save and Cancel will close the panel by sliding away
